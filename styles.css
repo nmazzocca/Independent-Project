@@ -1,0 +1,65 @@
+h1 {
+  font-size: 60px;
+  font-family: Raleway;
+  color: #456631;
+}
+
+p {
+  font-size: 30px;
+  font-family: Open Sans;
+  color: grey;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: Raleway;
+  color: #456631;
+}
+
+/*.textboxL {
+  width: 600px;
+  height: auto;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.textboxR {
+  width: 600px;
+  height: auto;
+  padding-left: 30px;
+  margin: 0;
+}*/
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  text-decoration-color: #333532;
+  font-family: Helvetica;
+  font-size: 16px;
+  padding: 60px;
+}
+
+#jumbotron {
+  position:  relative;
+  padding-bottom: 56.75%;
+  padding-top: -10;
+  overflow: hidden;
+  z-index: -10000;
+}
+
+.headline {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.textPadding {
+  padding: 20px;
+}
