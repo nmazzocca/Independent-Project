@@ -1,3 +1,6 @@
+body {
+  background-color: grey;
+}
 h1 {
   font-size: 60px;
   font-family: Raleway;
@@ -5,7 +8,7 @@ h1 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 16px;
   font-family: Open Sans;
   color: grey;
 }
@@ -15,6 +18,28 @@ h2 {
   font-family: Raleway;
   color: #456631;
 }
+
+/*BOOTSTRAP JUMBOTRON*/
+.jumbotron {
+  background-image: url(images\brick.jpeg);
+  background-size: cover;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+/* END Featurettes
+------------------------- */
 
 /*.textboxL {
   width: 600px;
@@ -45,6 +70,7 @@ h2 {
   padding: 60px;
 }
 
+/* KATIE JUMBOTRON
 #jumbotron {
   position:  relative;
   padding-bottom: 56.75%;
@@ -53,8 +79,13 @@ h2 {
   z-index: -10000;
 }
 
+
+
 .headline {
     position: absolute;
+    text-align: center;
+    font-family: Raleway;:
+    text-color: white;
     top: 45%;
     width: 100%;
     z-index: 1000;
@@ -63,3 +94,8 @@ h2 {
 .textPadding {
   padding: 20px;
 }
+
+.photoOpacity {
+  opacity: 0.75;
+}
+*/
