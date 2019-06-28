@@ -1,23 +1,42 @@
 body {
-  background-color: grey;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
+
 h1 {
   font-size: 60px;
   font-family: Raleway;
   color: #456631;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   font-family: Open Sans;
   color: grey;
+  margin-top: 0;
+ margin-bottom: 1rem;
+ margin-left: 4rem;
+ margin-rght: 4rem;
 }
 
 h2 {
   font-size: 50px;
   font-family: Raleway;
   color: #456631;
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
+
+
+.center {
+  text-align: center;
+}
+
+/*BOOSTRAP CAROUSEL*/
+
 
 /*BOOTSTRAP JUMBOTRON*/
 .jumbotron {
@@ -70,6 +89,35 @@ h2 {
   padding: 60px;
 }
 
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+element.style {
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
 /* KATIE JUMBOTRON
 #jumbotron {
   position:  relative;
